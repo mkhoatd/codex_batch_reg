@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+node_modules
+
+proxies.txt
+out/
+*.png
+
+srcs/proxy/proxy_auth_*
+creds.db

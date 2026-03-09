@@ -1,0 +1,6 @@
+tunnel: email-polling
+
+ingress:
+  - hostname: email-polling.hwemite.lol
+    service: http://127.0.0.1:8089
+  - service: http_status:404
